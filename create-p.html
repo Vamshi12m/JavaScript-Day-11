@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,td,th,table{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td,th{
+            padding: 18px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // TASK-1
+        let para=document.createElement("p")
+        para.innerText="Welcome to the javascript";
+        document.body.appendChild(para);
+
+        // TASK-2
+        let division=document.createElement("div");
+        let h1=document.createElement("h1");
+        let h2=document.createElement("h2");
+        h1.innerText="Main Heading";
+        h2.innerText="sub Heading";
+        document.body.appendChild(division);
+        division.appendChild(h1);
+        division.appendChild(h2);
+
+        // TASK-3
+        let ul=document.createElement("ul");
+        let li1=document.createElement("li");
+        let li2=document.createElement("li");
+        let li3=document.createElement("li");
+        li1.innerText="HTML";
+        li2.innerText="CSS";
+        li3.innerText="JAVASCRIPT";
+        document.body.appendChild(ul);
+        ul.appendChild(li1);
+        ul.appendChild(li2);
+        ul.appendChild(li3);
+
+        // TASK-4
+          // creating
+
+        // row1
+        let table=document.createElement("table");
+        let start=document.createElement("th");
+        let row1=document.createElement("tr");
+        let Thead1=document.createElement("th");
+        let Thead2=document.createElement("th");
+        let Thead3=document.createElement("th");
+        // row 2
+        let row2=document.createElement("tr");
+        let tdata1=document.createElement("th");
+        let tdata2=document.createElement("td");
+        let tdata3=document.createElement("td");
+        // row 3
+        let row3=document.createElement("tr");
+        let tdata11=document.createElement("th");
+        let tdata22=document.createElement("td");
+        let tdata33=document.createElement("td");
+        // row 4
+        let row4=document.createElement("tr");
+        let tdata111=document.createElement("th");
+        let tdata222=document.createElement("td");
+        let tdata333=document.createElement("td");
+        // row 5
+        let row5=document.createElement("tr");
+        let tdata_last1=document.createElement("th");
+        let tdata_last2=document.createElement("td");
+        let tdata_last3=document.createElement("td");
+        // assigning data
+        Thead1.innerText="SNO.";
+        Thead2.innerText="Name";
+        Thead3.innerText="Marks";
+
+        tdata1.innerText="1.";
+        tdata2.innerText="Naveen";
+        tdata3.innerText="870";
+
+        tdata11.innerText="2.";
+        tdata22.innerText="Karthik";
+        tdata33.innerText="880";
+
+        tdata111.innerText="3.";
+        tdata222.innerText="Lokesh";
+        tdata333.innerText="890";
+
+        tdata_last1.innerText="4.";
+        tdata_last2.innerText="Mahesh";
+        tdata_last3.innerText="860";
+
+        // appending
+        document.body.appendChild(table);
+        
+        table.appendChild(row1);
+        row1.appendChild(Thead1);
+        row1.appendChild(Thead2);
+        row1.appendChild(Thead3);
+        
+        table.appendChild(row2);
+        row2.appendChild(tdata1);
+        row2.appendChild(tdata2);
+        row2.appendChild(tdata3);
+        
+        table.appendChild(row3);
+        row3.appendChild(tdata11);
+        row3.appendChild(tdata22);
+        row3.appendChild(tdata33);
+        
+        table.appendChild(row4);
+        row4.appendChild(tdata111);
+        row4.appendChild(tdata222);
+        row4.appendChild(tdata333);
+        
+        table.appendChild(row5);
+        row5.appendChild(tdata_last1);
+        row5.appendChild(tdata_last2);
+        row5.appendChild(tdata_last3);
+
+        // TASK-5
+        let div1=document.createElement("div");
+        let image=document.createElement("img");
+        let p=document.createElement("p");
+        image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4qe-TiNdb7kONl0a1C3a1R3H9TPWKSJeGg&s";
+        p.innerHTML="<span style='background-color:yellow;font-size:25px;margin-left:70px';>Javascript</span>"
+        document.body.appendChild(div1);
+        div1.appendChild(image);
+        div1.appendChild(p);
+
+        // TASK-6
+        let ol1=document.createElement("ol");
+        let list1=document.createElement("li");
+        let list2=document.createElement("li");
+        let ol2=document.createElement("ol");
+        let subli1=document.createElement("li");
+        let subli2=document.createElement("li");
+        list1.innerText=""
+
+        
+    </script>
+</body>
+</html>
